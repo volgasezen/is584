@@ -169,3 +169,7 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Misc.
+Lab 2/*.csv
+Lab 2/Sentiment Prediction copy.ipynb
