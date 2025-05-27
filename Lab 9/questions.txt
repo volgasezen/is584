@@ -1,0 +1,14 @@
+Explain the concept of convexity in optimization. Why are most deep learning loss functions non-convex, and how does this impact the convergence properties of gradient-based methods?
+How does skip connection (residual connection) in a ResNet solve the problem of vanishing gradients in deep networks?
+Why do autoencoders often have issues with learning a meaningful latent space when the dimensionality of the bottleneck is too large?
+Discuss the vanishing and exploding gradient problems in RNNs. How do techniques like LSTMs and GRUs alleviate these issues?
+How does the Adam optimizer differ from RMSprop? Under what circumstances would Adam perform worse than SGD with momentum?
+Explain the concept of batch normalization. Why does it sometimes hurt model performance, particularly in reinforcement learning scenarios?
+How does label smoothing improve generalization, and what is its effect on the softmax output probabilities?
+How does weight decay affect the training process in deep learning models, and how does it differ from L2 regularization in terms of implementation?
+What are the key differences between generative models like GANs and VAEs? How do they trade off between sample quality and diversity?
+Why is it difficult to interpret the decision boundary of a neural network in high-dimensional space? How does the curse of dimensionality manifest in deep learning?
+What is the universal approximation theorem in the context of neural networks? How does it apply to feedforward networks with a single hidden layer, and what are its limitations in practical deep learning?
+How do ReLU activations contribute to the expressivity of deep networks? Why are piecewise linear functions sufficient for approximating highly complex functions?
+How does representation learning in deep neural networks relate to classical dimensionality reduction techniques like PCA and LDA? In what ways do deep networks go beyond linear mappings?
+Discuss the theoretical basis of momentum in optimization. How does adding momentum to gradient-based methods affect the convergence properties in high-dimensional parameter spaces?
