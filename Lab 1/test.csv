@@ -1,0 +1,101 @@
+ID,System_Category,Description
+IND-USW1-2026-AF22,Standard Industrial,Base identifier for 2026
+IND-USW1-2026-AF23,Standard Industrial,Minor version increment
+IND-USW1-2026-BF22,Standard Industrial,Category shift (B-series)
+IND-USW1-2026-AF29,Standard Industrial,Unit increment
+IND-USE1-2026-AF22,Standard Industrial,Region shift (East)
+IND-USW1-2025-AF22,Standard Industrial,Year shift (2025)
+IND-USW1-2026-CF22,Standard Industrial,Category shift (C-series)
+IND-USW2-2026-AF22,Standard Industrial,Region shift (West 2)
+IND-USW1-2026-AF99,Standard Industrial,Upper bound test
+IND-USW1-2026-AF2A,Standard Industrial,Hexadecimal increment
+IND-USW1-2026-AF2B,Standard Industrial,Hexadecimal increment
+IND-USW1-2026-EF22,Standard Industrial,Category shift (E-series)
+IND-USW1-2026-AF00,Standard Industrial,Lower bound test
+IND-USW1-2024-AF22,Standard Industrial,Year shift (2024)
+IND-CAN1-2026-AF22,Standard Industrial,Country code shift
+IND-USW1-2026-FF22,Standard Industrial,Category shift (F-series)
+IND-USW1-2026-A122,Standard Industrial,Sub-version variation
+IND-USW1-2026-AF22-V2,Standard Industrial,Version suffix
+IND-USW1-2026-AF22-V3,Standard Industrial,Version suffix
+IND-USW1-2026-AF22-AUX,Standard Industrial,Auxiliary suffix
+OBJ_001,Legacy Mainframe,Simple sequential
+OBJ_002,Legacy Mainframe,Simple sequential
+OBJ_002_A,Legacy Mainframe,Sub-object A
+OBJ_002_B,Legacy Mainframe,Sub-object B
+X99_RT_0,Legacy Mainframe,Root type 0
+X99_RT_1,Legacy Mainframe,Root type 1
+X99_RT_X,Legacy Mainframe,Root type X
+Z_ALPHA_9,Legacy Mainframe,Alpha series 9
+Z_ALPH_10,Legacy Mainframe,Truncated alpha series 10
+Z_ALPH_11,Legacy Mainframe,Truncated alpha series 11
+SYS_ROOT,Legacy Mainframe,System keyword
+SYS_ADMIN_0,Legacy Mainframe,Administrative keyword
+NULL_PTR_EX,Legacy Mainframe,Exception string
+00000001_X,Legacy Mainframe,Zero-padded hex
+00000002_X,Legacy Mainframe,Zero-padded hex
+TMP_FILE_99,Legacy Mainframe,Temporary file
+BAK_FILE_99,Legacy Mainframe,Backup file
+VOID_MAIN,Legacy Mainframe,Programming keyword
+LOCAL_HOST,Legacy Mainframe,Networking keyword
+DB_QUERY_TX,Legacy Mainframe,Database transaction
+8f2d-9912-bc44-1102,UUID/Hash,High entropy sequence
+8f2d-9912-bc44-1103,UUID/Hash,Last digit increment
+8f2d-9912-bc44-1104,UUID/Hash,Last digit increment
+a1b2-c3d4-e5f6-0000,UUID/Hash,Patterned hex
+ffff-ffff-ffff-ffff,UUID/Hash,Max value
+7788-aabb-ccdd-eeff,UUID/Hash,Descending hex
+0011-2233-4455-6677,UUID/Hash,Ascending hex
+9a9a-9b9b-9c9c-9d9d,UUID/Hash,Repeating hex
+de30-ad45-beef-1010,UUID/Hash,Hex word (Dead Beef)
+café-babe-0000-1234,UUID/Hash,Hex word with special char
+8f2d-9912-bc44-ffff,UUID/Hash,Segment max
+8f2d-9912-bc44-0000,UUID/Hash,Segment min
+1234-5678-90ab-cdef,UUID/Hash,Sequential hex
+fedc-ba09-8765-4321,UUID/Hash,Reverse sequential hex
+5555-5555-5555-5555,UUID/Hash,Uniform hex
+dead-beef-cafe-feed,UUID/Hash,Famous hex words
+b00b-a1ba-ba11-0000,UUID/Hash,Hex word play
+abcd-1234-efgh-5678,UUID/Hash,Alphanumeric sequence
+9999-0000-9999-0000,UUID/Hash,Repeating pattern
+8f2d-0000-bc44-1102,UUID/Hash,Internal segment nulling
+OBJECT::CATEGORY::SUBCAT::ID::001,Wild/Chaotic,Namespace format
+OBJECT::CATEGORY::SUBCAT::ID::999,Wild/Chaotic,Namespace max
+user_id_#992-alpha-gamma-delta,Wild/Chaotic,Human-readable hybrid
+___UNDEFINED___,Wild/Chaotic,Error state
+127.0.0.1.local.id.8080,Wild/Chaotic,IP-based string
+ID?TYPE=ASSET&VAL=404,Wild/Chaotic,Query string style
+[BRACKET_ID_001],Wild/Chaotic,Bracketed format
+[BRACKET_ID_002],Wild/Chaotic,Bracketed format
+!!IMPORTANT!!_ASSET_01,Wild/Chaotic,Alert style
+long-string-identifier-that-exceeds-normal-buffer-limits-00001,Wild/Chaotic,Length stress test
+short,Wild/Chaotic,Minimalist
+0,Wild/Chaotic,Integer string
+1,Wild/Chaotic,Integer string
+~,Wild/Chaotic,Special character only
+ID_WITH_SPACES 001,Wild/Chaotic,Space delimiter
+ID_WITH_SPACES 002,Wild/Chaotic,Space delimiter
+---,Wild/Chaotic,Dash sequence
+...,Wild/Chaotic,Dot sequence
+PROD.S3.BUCKET.OBJECT.V1.FINAL.FINAL2,Wild/Chaotic,Cloud path style
+PROD.S3.BUCKET.OBJECT.V1.FINAL.FINAL3,Wild/Chaotic,Cloud path style
+XP-4421-QM,Experimental,Alphanumeric code
+XP-4421-QN,Experimental,Alphanumeric code
+XP-4421-QO,Experimental,Alphanumeric code
+quantum-particle-id-0.992,Experimental,Scientific style
+quantum-particle-id-0.993,Experimental,Scientific style
+node-js-server-cluster-alpha,Experimental,Cluster naming
+node-js-server-cluster-beta,Experimental,Cluster naming
+cluster-gamma-001,Experimental,Cluster naming
+99-problems-but-id-is-one,Experimental,Humorous string
+HEX-0xDEADBEEF,Experimental,Prefixed hex
+HEX-0xCAFEBABE,Experimental,Prefixed hex
+BIN-11010101011,Experimental,Binary string
+BIN-11010101010,Experimental,Binary string
+ID:999:ERROR:TIMEOUT,Experimental,Error log style
+retry_count_5_final,Experimental,Variable style
+id-1,Experimental,Short sequential
+id-2,Experimental,Short sequential
+id-3,Experimental,Short sequential
+!!!___!!!,Experimental,Symbol soup
+Z-Z-Z-Z-Z,Experimental,Repetitive dash
