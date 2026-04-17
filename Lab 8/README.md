@@ -1,10 +1,6 @@
-The premise of this lab is to first fine-tune a transformer-encoder called BERT. We will then show how it and other models can be trained more efficiently by introducing [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685). We will finally fine-tune a quantized version of tinyllama with the help of LoRa implementation of PEFT, a huggingface library. 
+The premise of this lab is to showcase common functions in the `Transformers` library to download and fine-tune open-weight LLMs. After getting acquainted with `Transformers` and `Datasets` libraries, we will implement [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685) from scratch.  We will then fine-tune a quantized version of TinyLlama with the help of LoRa implementation of PEFT which is another huggingface library. 
 
-First two notebooks were taken from the links listed below with slight changes: Part 1 notebook is shortened to only cover training in native pytorch, while Part 2 notebook is expanded to cover the case where the rank is switched from 4 to 16 for better accuracy in cat, dog and deer classes.
-
-## Instructions
-
-Apart from part 2, all parts utilize huggingface functions to download the transformer-based models. To download gemma2 at the end you need to create a huggingface access token from [https://huggingface.co/settings/tokens](https://huggingface.co/settings/tokens) and save it inside a .env file in the root directory. (HF_KEY="your_key")
+First two notebooks were adapted from the links listed below with slight changes: Part 1 notebook is shortened to only cover training in native pytorch, while Part 2 notebook is expanded to cover the case where the rank is switched from 4 to 16 for better accuracy in cat, dog and deer classes.
 
 ## References and Further Reading
 
