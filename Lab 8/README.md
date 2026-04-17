@@ -1,4 +1,6 @@
-The basic premise of this lab is to first fine-tune a transformer-encoder called BERT. We will then show how it and other models can be trained more efficiently by introducing [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685). We will finally fine-tune a quantized version of gemma2-2b with the help of LoRa implementation of PEFT, a huggingface library. Notebooks were taken from the links listed below with slight changes: Part 1 notebook is shortened to only cover training in native pytorch, while Part 2 notebook is expanded to cover the case where the rank is switched from 4 to 16 for better accuracy in cat, dog and deer classes while at the same time minimizing catastrophic forgetting.
+The premise of this lab is to first fine-tune a transformer-encoder called BERT. We will then show how it and other models can be trained more efficiently by introducing [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685). We will finally fine-tune a quantized version of tinyllama with the help of LoRa implementation of PEFT, a huggingface library. 
+
+First two notebooks were taken from the links listed below with slight changes: Part 1 notebook is shortened to only cover training in native pytorch, while Part 2 notebook is expanded to cover the case where the rank is switched from 4 to 16 for better accuracy in cat, dog and deer classes.
 
 ## Instructions
 
@@ -16,5 +18,5 @@ Apart from part 2, all parts utilize huggingface functions to download the trans
 
 ### Part 3: PEFT and Quantized LLM Fine-tuning
 * PEFT: https://huggingface.co/blog/peft
-* Datset used: https://huggingface.co/datasets/tomg-group-umd/CLRS-Text-train
+* Datset used: https://huggingface.co/datasets/bitext/Bitext-travel-llm-chatbot-training-dataset
 * Supervised Fine-tuning Trainer: https://huggingface.co/docs/trl/main/en/sft_trainer#training-adapters
